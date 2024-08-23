@@ -37,7 +37,7 @@ function Single() {
   const [responseData, setResponseData] = useState(null);
   const fetchCameraData = async () => {
     try {
-      const response = await fetch("http://localhost:5001/predict/s", {
+      const response = await fetch("https://eduaid-backend-u5em.onrender.com/predict/s", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -114,7 +114,7 @@ function Single() {
 
   const sendEmail = async (emailAddress) => {
     try {
-      const response = await fetch("http://localhost:5001/send-email", {
+      const response = await fetch("https://eduaid-backend-u5em.onrender.com/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
