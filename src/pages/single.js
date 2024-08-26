@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Tag, TagLabel, TagLeftIcon } from '@chakra-ui/react';
+import React, { useState } from "react";
+import { Tag, TagLabel } from '@chakra-ui/react';
 import { useToast, VStack, FormControl, FormLabel, Input, Button, Text } from "@chakra-ui/react";
 import {
   Modal,
@@ -66,30 +66,6 @@ function Single() {
       console.error("API Request Error:", error);
     }
   }
-
-
-//   const sendEmail = async (emailAddress) => {
-//     try {
-//       const response = await fetch("/send-email", {
-//         method: "POST",
-//         headers: {
-//           "Content-Type": "application/json"
-//         },
-//         body: JSON.stringify({ email: emailAddress })
-//       });
-
-//       if (response.ok) {
-//         const data = await response.json();
-//         console.log(data.message); // Output success message
-//       } else {
-//         console.error("Failed to send email");
-//       }
-//     } catch (error) {
-//       console.error("Error sending email:", error);
-//     }
-//   };
-
-// sendEmail()
 
   const [formData, setFormData] = useState({
     indexNumber: "",

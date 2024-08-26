@@ -13,8 +13,8 @@ function Sponsor() {
           transform the way we share and store captivating visuals.
         </p>
         <div className="sponsor-buttons">
-          <a href="https://www.buymeacoffee.com/collinsabrusu">buy me a coffee</a>
-          <a href="https://www.patreon.com/abrusucollins">Patreon</a>
+          <a href="#">buy me a coffee</a>
+          <a href="#">Patreon</a>
         </div>
       </div>
       <img src="/images/money.svg"></img>
