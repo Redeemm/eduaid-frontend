@@ -23,7 +23,6 @@ import {
   Table,
   Thead,
   Tbody,
-  Select,
   Tr,
   Th,
   Td,
