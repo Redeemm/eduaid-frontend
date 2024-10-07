@@ -49,10 +49,10 @@ function NavBar() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/single">Camera try-on</Link>
+          <Link href="/single">Single Student</Link>
         </li>
         <li>
-          <Link href="/multiple">Image try-on</Link>
+          <Link href="/multiple">Multiple Student</Link>
         </li>
         <li>
           <Link href="/sponsor">Sponsor</Link>
